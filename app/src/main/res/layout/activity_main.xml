@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.brigadeprints.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/logo" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#1A237E"
+            android:text=" About us"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#F44336"
+            android:textStyle="bold|italic"
+            android:fontFamily="sans-serif"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="8dp"
+            android:text="Brigade Prints as a manufacturer,supplier, and wholesaler for all kinds the finest PVC ID Cards. A professionally managed company supported by a team of highly trained engineers and other technocrats, we have the caliber to develop and supply a complete range of ID Card Accessories, ID Card Machines and Printer, Smartcard Manufacturers, Color PVC Cards, ID Card Printing, Plastic Lanyards, Button Badges, Loyalty Cards, Gold and Silver Cards, Plain and Sticky cards . Our range of Punching Cards are machined and processed using stainless steel, ABS plastics, polypropylene and others raw material for making it reliable, durable and zero maintenances."
+            android:textColor="#1A237E"
+            android:layout_marginLeft="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#1A237E"
+            android:text=" Contact us"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#F44336"
+            android:textStyle="bold|italic"
+            android:fontFamily="sans-serif"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginBottom="8dp"
+            android:id="@+id/contactUs"
+            android:textColor="#1A237E" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="touch here to visit our website for more info thank you"
+            android:textColor="#F44336"
+            android:textStyle="bold|italic"
+            android:fontFamily="sans-serif"
+            android:background="#1A237E"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:onClick="openwebSite"/>
+    </LinearLayout>
+</ScrollView>
+
